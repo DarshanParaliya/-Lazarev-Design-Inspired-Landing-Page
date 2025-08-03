@@ -892,6 +892,7 @@ footer{
     /* page3 */
     #leftpart p {
         font-size: 8vw;
+        padding-bottom: 110vw;
     }
     #rightpart .toppara h5 {
         font-size: 3.9vw;
@@ -921,5 +922,25 @@ footer{
     .sec-left h2 {
         font-size: 6vw;
     }
-    
+    /* page5 */
+    #page5{
+        min-height: 225vh;
+    }
+    #page-right>p {
+        font-size: 5.5vw;
+        line-height: 8.4vw;
+    }
+    #page5-content h1 {
+        font-size: 9.5vw;
+    }
+    .page5-elem h3 {
+        font-size: 6.1vw;
+    }
+    .page5-elem p {
+        font-size: 6.2vw;
+    }
+    #page5>button {
+        font-size: 5.5vw;
+        padding: 1.8vw 4.2vw
+    }
 } 
