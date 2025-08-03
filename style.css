@@ -603,7 +603,7 @@ summary::marker{
     padding-top: 3vh;
 }
 #page6{
-    min-height: 100vh;
+    min-height: auto;
     width: 100%;
     align-items: center;
     display: flex;
@@ -611,13 +611,15 @@ summary::marker{
     flex-wrap: nowrap;
     background-color: #111;
     border-top: 1px solid #333;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     
 }
 .main-container{
     width: 77%;
     height: 100%;
     border-radius: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -943,4 +945,37 @@ footer{
         font-size: 5.5vw;
         padding: 1.8vw 4.2vw
     }
+    
+    /* page6  */
+    #page6{
+        height: 50vh;
+    }
+    .video-container video {
+        height: 200px;
+    }
+    .video-container2 {
+        height: 228px;
+    }
+    .main-container {
+        height: 54%;
+    }
+    #page6 {
+        min-height: 60vh;
+        padding-top: 6vh;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+    .video-container .hover-text {
+        font-size: 7.5vw;
+    }
+    .hover-text2 {
+        font-size: 2.3vw;
+    }    
+    .video-container2 .vid2-head {
+        font-size: 7vw;
+    }
+    .video-container2 .vid2-para {
+        font-size: 2.3vw;
+    }
+    
 } 
