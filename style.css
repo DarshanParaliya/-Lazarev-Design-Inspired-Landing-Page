@@ -869,10 +869,10 @@ footer{
         padding: 0vw 6.5vw
     }
     #move-left p {
-        font-size: 8.1vw;
+        font-size: 7.1vw;
     }    
     #move-left h5 {
-        font-size: 8.1vw;
+        font-size: 7.1vw;
     }
     .right-elem h2 {
         font-size: 7.35vw;
@@ -880,6 +880,12 @@ footer{
     .right-elem {
         padding-top: 5vw;
         padding-bottom: 14vw;
+    }
+    .page3-center .icon i {
+        font-size: 15vw;
+    }
+    .page3-center .icon {
+        padding: 10vw;
     }
 
 } 
