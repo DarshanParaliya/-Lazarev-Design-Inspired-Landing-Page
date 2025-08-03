@@ -796,3 +796,51 @@ footer{
     font-weight: 500;
     font-style: normal;
 }
+
+
+/* Media-Query */
+@media(max-width: 430px){
+    nav{
+        padding: 4vw 7.4vw;
+    height: 12vh;
+    }
+    nav h1 {
+        font-size: 3.6vw;
+    }
+    .nav-part2 h4 {
+        font-size: 2.4vw;
+    }
+        .nav-part2 {
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+            padding: 5px 29px;
+    }
+     nav button {
+            padding: 1px 26px;
+            font-size: 3vw;
+        }
+        #page1 {
+            height: 137vh;
+            width: 137%;
+        }
+        #page1 h1 {
+            font-size: 10.5vw;
+            line-height: 9.5vw;
+        }
+        #page1 h1 svg {
+            height: 7vw;
+            width: 7vw;
+        }
+        #page1 p {
+            margin-top: 1.5vh;
+            font-size: 2.2vw; 
+        }
+        #page1-something h4 {
+            font-size: 2vw; 
+        }
+        #moving-div .move img {
+            height: 2vw;
+        }
+          
+}
