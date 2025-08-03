@@ -873,6 +873,7 @@ footer{
     }    
     #move-left h5 {
         font-size: 7.1vw;
+        padding-bottom: 39vw;
     }
     .right-elem h2 {
         font-size: 7.35vw;
@@ -888,4 +889,37 @@ footer{
         padding: 10vw;
     }
 
+    /* page3 */
+    #leftpart p {
+        font-size: 8vw;
+    }
+    #rightpart .toppara h5 {
+        font-size: 3.9vw;
+    }
+    #rightpart .toppara h3 {
+        font-size: 5.1vw;
+        line-height: 7.5vw;
+    }
+    .bottompara h5 {
+        font-size: 3.9vw;
+    }
+    .bottompara h3 {
+        font-size: 5.1vw;
+        line-height: 7.5vw;
+    }
+    .sec-left p {
+        color: #000;
+        margin-top: 2vh;
+        font-size: 4.1vw;
+        line-height: 5.7vw;
+        padding-top: 0vw;
+    }
+    .section {
+        padding: 0vh 10vw;
+        margin-bottom: 13vw;
+    }
+    .sec-left h2 {
+        font-size: 6vw;
+    }
+    
 } 
