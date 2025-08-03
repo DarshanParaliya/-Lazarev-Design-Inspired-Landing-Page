@@ -800,11 +800,15 @@ footer{
 
 /* Media-Query */
 @media(max-width: 430px){
-    nav{
-        padding: 4vw 7.4vw;
-    height: 12vh;
+    html, body{
+        width: 155%;
     }
-    nav h1 {
+    nav{
+    padding: 4vw 7.4vw;
+    height: 12vh;
+    width: 100%;
+    } 
+   nav h1 {
         font-size: 3.6vw;
     }
     .nav-part2 h4 {
@@ -817,10 +821,10 @@ footer{
             padding: 5px 29px;
     }
      nav button {
-            padding: 1px 26px;
+            padding: 1px 4px;
             font-size: 3vw;
         }
-        #page1 {
+   /*      #page1 {
             height: 137vh;
             width: 137%;
         }
@@ -842,5 +846,5 @@ footer{
         #moving-div .move img {
             height: 2vw;
         }
-          
-}
+          */
+} 
