@@ -803,6 +803,8 @@ footer{
     html, body{
         width: 155%;
     }
+
+    /* navbar */
     nav{
     padding: 4vw 7.4vw;
     height: 12vh;
@@ -821,7 +823,7 @@ footer{
         padding-bottom: 2vw;
         margin-bottom: -1.4vw;
     }
-        .nav-part2 {
+    .nav-part2 {
             flex-wrap: wrap;
             display: flex;
             flex-direction: row;
@@ -832,15 +834,15 @@ footer{
             font-size: 4vw;
         }
         
-    
+    /* page1  */
     #page1 {
         height: 240vh;
         }
-        #page1 h1 {
+    #page1 h1 {
             font-size: 21.5vw;
             line-height: 20.5vw;
         }
-        #page1 h1 svg {
+    #page1 h1 svg {
             height: 15vw;
             width: 15vw;
         }
@@ -857,24 +859,27 @@ footer{
     #moving-div .move img {
         height: 6vw;
     }
-     /* 
-       
-        #page1 h1 svg {
-            height: 7vw;
-            width: 7vw;
-        }
-        #page1 p {
-            margin-top: 1.5vh;
-            font-size: 2.2vw; 
-        }
-        #page1-something h4 {
-            font-size: 2vw; 
-        }
-        #moving-div .move img {
-            height: 2vw;
-        }
-          */
-          #nav-bottom{
+     #nav-bottom{
             border: none;
           }
+    
+    /* page2  */
+    #page2 {
+        height: 129vh;
+        padding: 0vw 6.5vw
+    }
+    #move-left p {
+        font-size: 8.1vw;
+    }    
+    #move-left h5 {
+        font-size: 8.1vw;
+    }
+    .right-elem h2 {
+        font-size: 7.35vw;
+    }
+    .right-elem {
+        padding-top: 5vw;
+        padding-bottom: 14vw;
+    }
+
 } 
