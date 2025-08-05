@@ -67,6 +67,10 @@ nav h1 {
     font-weight: 200;
     font-style: normal;
 }
+.menu-icon{
+    display: none;
+}
+
 
 nav button {
     background-color: #0BA34E;
@@ -812,10 +816,14 @@ footer{
     height: 12vh;
     width: 100%;
     border-bottom: 1px solid rgb(112, 108, 108);
+    justify-content: space-between;
     } 
    nav h1 {
         font-size: 4.6vw;
         padding-top: 2vw;
+    }
+    .nav-elem h5 span{
+        display: none;
     }
     .nav-part2 h4 {
         font-size: 4.5vw;
@@ -826,14 +834,38 @@ footer{
         margin-bottom: -1.4vw;
     }
     .nav-part2 {
+            height: 88vw;
+            width: 100%;
+            align-items: flex-start;
             flex-wrap: wrap;
-            display: flex;
-            flex-direction: row;
-            padding: 5px 29px;
+            display: none;
+            flex-direction: column;
+            gap: 10vw;
+            overflow: hidden;
+            background-color: #222;
+            margin-top: 22vw;
+            padding: 10vw 20vw;
+            border-bottom-right-radius: 3.4vw;
+            border-bottom-left-radius: 3.4vw;
     }
+    .menu-icon{
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        margin-top: 10px;
+        display: flex;
+    }
+   .nav-part2.show {
+        display: flex; /* show when toggled */
+      }
+      #nav-bottom{
+        display: none;
+      }
+    
      nav button {
             padding: 3px 4px;
             font-size: 4vw;
+            display: none;
         }
         
     /* page1  */
@@ -997,3 +1029,4 @@ footer{
     }
     
 } 
+

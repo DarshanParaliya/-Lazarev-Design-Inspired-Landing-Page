@@ -41,6 +41,13 @@ function navAnimation() {
 }
 navAnimation()
 
+ function mobileviewButton(){
+    document.querySelector(".menu-icon").addEventListener("click", function () {
+        document.querySelector(".nav-part2").classList.toggle("show");
+      });
+ } 
+ mobileviewButton()
+
 function page2Animation(){
     var rightElems=document.querySelectorAll(".right-elem")
 rightElems.forEach(function(elem) {
